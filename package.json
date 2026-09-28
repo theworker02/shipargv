@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shipargv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ship lightweight argv statistics from stdin samples.",
+  "bin": {
+    "shipargv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shipargv.git"
+  },
+  "homepage": "https://theworker02.github.io/shipargv/",
+  "keywords": [
+    "ship",
+    "argv",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
